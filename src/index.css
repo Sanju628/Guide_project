@@ -95,3 +95,17 @@ code {
   letter-spacing: 1px;
   color: #00acc1;
 }
+
+
+.bg-2 { 
+  background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
+}
+
+.container-fluids {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+p {font-size: 18px;}
+.margin {margin-bottom: 45px;}

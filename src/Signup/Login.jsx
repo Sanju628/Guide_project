@@ -63,7 +63,7 @@ function Login() {
           </Typography>
           <form className={classes.form} noValidate>
             <TextField
-              variant="outlined"
+              variant="filled"
               margin="normal"
               required
               fullWidth
@@ -74,7 +74,7 @@ function Login() {
               autoFocus
             />
             <TextField
-              variant="outlined"
+              variant="filled"
               margin="normal"
               required
               fullWidth
