@@ -1,5 +1,4 @@
 import React from "react";
-import reactDom from "react-dom";
 import "../index.css";
 
 function Lang(){
@@ -24,7 +23,7 @@ function Lang(){
                                         <div class="text-container">
                                             <h6>C TUTORIAL</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Fundamental of the C Programming Language</i></p>
-                                            <a href="https://www.youtube.com/watch?v=rLf3jnHxSmU&list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Click to Start</a>
+                                            <a href="https://www.youtube.com/watch?v=rLf3jnHxSmU&list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Get Started</a>
                                         </div>
                                     </div>
                                 </div>
@@ -40,7 +39,7 @@ function Lang(){
                                         <div class="text-container">                                    
                                             <h6>C++ TUTORIAL</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Fundamental of the C++ Programming Language</i></p>
-                                            <a href="https://www.youtube.com/watch?v=AKNGgAXTark&list=PLIY8eNdw5tW_o8gsLqNBu8gmScCAqKm2Q" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Click to Start</a>
+                                            <a href="https://www.youtube.com/watch?v=AKNGgAXTark&list=PLIY8eNdw5tW_o8gsLqNBu8gmScCAqKm2Q" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Get Started</a>
                                         </div>
                                     </div>
                                 </div>
@@ -57,7 +56,7 @@ function Lang(){
                                         <div class="text-container">
                                             <h6>PYTHON TUTORIAL</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Fundamental of the Python Programming Language</i></p>
-                                            <a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Click to Start</a>
+                                            <a href="https://www.youtube.com/watch?v=_uQrJ0TkZlc" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Get Started</a>
                                         </div>
                                     </div>
                                 </div>
@@ -73,7 +72,7 @@ function Lang(){
                                         <div class="text-container">
                                             <h6>JAVA TUTORIAL</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Fundamental of the Java Programming Language</i></p>
-                                            <a href="https://www.youtube.com/watch?v=eIrMbAQSU34" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Click to Start</a>
+                                            <a href="https://www.youtube.com/watch?v=eIrMbAQSU34" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Get Started</a>
                                         </div>
                                     </div>
                                 </div>
@@ -89,7 +88,7 @@ function Lang(){
                                         <div class="text-container">
                                             <h6>C STUDY MATERIAL</h6>
                                             <p><i>This Card Contain the Best Study Material  For Learning the Fundamental of the C Programming Language</i></p>
-                                            <a href="https://www.tutorialspoint.com/cprogramming/index.htm" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Click to Start</a>
+                                            <a href="https://www.tutorialspoint.com/cprogramming/index.htm" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Get Started</a>
                                         </div>
                                     </div>
                                 </div>
@@ -105,7 +104,7 @@ function Lang(){
                                         <div class="text-container">
                                             <h6>C++ STUDY MATERIAL</h6>
                                             <p><i>This Card Contain the BestStudy Material  For Learning the Fundamental of the C++ Programming Language</i></p>
-                                            <a href="https://www.w3schools.com/CPP/default.asp" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Click to Start</a>
+                                            <a href="https://www.w3schools.com/CPP/default.asp" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Get Started</a>
                                         </div>
                                     </div>
                                 </div>
@@ -121,7 +120,7 @@ function Lang(){
                                         <div class="text-container">
                                             <h6>PYTHON STUDY MATERIAL</h6>
                                             <p><i>This Card Contain the Best Study Material For Learning the Fundamental of the Python Programming Language</i></p>
-                                            <a href="https://www.w3schools.com/python/default.asp" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Click to Start</a>
+                                            <a href="https://www.w3schools.com/python/default.asp" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Get Started</a>
                                         </div>
                                     </div>
                                 </div>
@@ -137,7 +136,7 @@ function Lang(){
                                         <div class="text-container">
                                             <h6>JAVA STUDY MATERIAL</h6>
                                             <p><i>This Card Contain the BestStudy Material  For Learning the Fundamental of the Java Programming Language</i></p>
-                                            <a href="https://www.w3schools.com/java/default.asp" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Click to Start</a>
+                                            <a href="https://www.w3schools.com/java/default.asp" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Get Started</a>
                                         </div>
                                     </div>
                                 </div>

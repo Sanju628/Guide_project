@@ -102,9 +102,14 @@ code {
   color: #ffffff;
 }
 
+/*----  Container Style  ----*/
 .container-fluids {
   padding-top: 70px;
   padding-bottom: 70px;
+}
+
+.container-fluides{
+  background-color: skyblue;
 }
 
 p {font-size: 18px;}

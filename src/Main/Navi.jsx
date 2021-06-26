@@ -24,18 +24,18 @@ function Navi(){
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link-active" style={{paddingRight:"15px"}} aria-current="page" to="/">
+                                <NavLink className="nav-link-active" style={{paddingRight:"15px"}} aria-current="page" to="/lang">
                                     <i>LEARN LANGUAGE</i>
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link-active" style={{paddingRight:"15px"}} aria-current="page" to="/lang">
+                                <NavLink className="nav-link-active" style={{paddingRight:"15px"}} aria-current="page" to="/Dsavid">
                                     <i>DATA STRUCTURE AND ALGORITHMS</i>
                                 </NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink className="nav-link-ctive" style={{paddingRight:"15px"}} aria-current="page" to="/">
-                                    <i>COMPETITIVE PROGRAMING</i>
+                                    <i>PRACTICE DATA STRUCTURE AND ALGORITHMS</i>
                                 </NavLink>
                             </li>
                             <li className="nav-item">

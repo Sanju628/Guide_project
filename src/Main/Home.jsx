@@ -9,47 +9,47 @@ function Home()
     return(
         <>
 
-            <Carousel>
-  <Carousel.Item>
-    <img
-      className="d-block w-100 h-25"
-      src="https://piggy-rider.s3.ap-south-1.amazonaws.com/learn-web-development-by-subrat-kumar-das-primary-image-CchTzOsdNFxjrnyO.jpg"
-      
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      <h3><i>WEB DEVELOPMENT</i></h3>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="https://www.codingninjas.com/blog/wp-content/uploads/2021/05/Blog-58.png"
-      alt="Second slide"
-    />
+        <Carousel>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100 h-25"
+                    src="https://piggy-rider.s3.ap-south-1.amazonaws.com/learn-web-development-by-subrat-kumar-das-primary-image-CchTzOsdNFxjrnyO.jpg"
+                    
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <h3><i>WEB DEVELOPMENT</i></h3>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="https://www.codingninjas.com/blog/wp-content/uploads/2021/05/Blog-58.png"
+                    alt="Second slide"
+                    />
 
-    <Carousel.Caption>
-    <h3><i>PLACEMENT PREPARATION</i></h3>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191113185616/Best-Way-To-Start-With-Competitive-Programming-GeeksforGeeks-CP-Live-Course.png"
-      alt="Third slide"
-    />
+                    <Carousel.Caption>
+                    <h3><i>PLACEMENT PREPARATION</i></h3>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191113185616/Best-Way-To-Start-With-Competitive-Programming-GeeksforGeeks-CP-Live-Course.png"
+                    alt="Third slide"
+                    />
 
-    <Carousel.Caption>
-    <h3><i>COMPETITIVE PROGRAMING</i></h3>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
-<div class="container-fluids bg-2 text-center">
-  <h3 class="margin" style={{fontFamily:"Arial"}}>About This Website</h3>
-  <p style={{fontFamily:"Lucida Console"}}>This Website is basically guide to beginners how to "Start Competitive","Web Development" and also provide the set of Selective Classic Questions of
-  "Data Structure and Algorithms" and Core Subject also like "DataBase Management System","Operating System","Computer Networks"</p>
-</div>
-<div id="cards_landscape_wrap-2">
+                    <Carousel.Caption>
+                    <h3><i>COMPETITIVE PROGRAMING</i></h3>
+                    </Carousel.Caption>
+                </Carousel.Item>
+        </Carousel>
+        <div class="container-fluids bg-2 text-center">
+        <h3 class="margin" style={{fontFamily:"Arial"}}>About This Website</h3>
+        <p style={{fontFamily:"Lucida Console"}}>This Website is basically guide to beginners how to "Start Competitive","Web Development" and also provide the set of Selective Classic Questions of
+        "Data Structur  e and Algorithms" and Core Subject also like "DataBase Management System","Operating System","Computer Networks"</p>
+        </div>
+        <div id="cards_landscape_wrap-2">
                 <div class="container">
                 <h5 style={{fontFamily:"impact",fontSize:"40px"}}>Guide For Resources</h5>
                     <div class="row">
@@ -105,6 +105,22 @@ function Home()
                     </div>
                 </div>
             </div>
+            <div className="container-fluides bg-2 text-center">
+            <footer className="page-footer font-small special-color-dark pt-4">
+                <div className="container">
+                    <ul class="list-unstyled list-inline text-center">
+                    <button type="button" class="btn btn-fb"><i class="fa fa-facebook left"></i> Facebook</button>
+                    <button type="button" class="btn btn-tw"><i class="fa fa-twitter left"></i> Twitter</button>
+                    <button type="button" class="btn btn-gplus"><i class="fa fa-google-plus left"></i> Google +</button>
+                    <button type="button" class="btn btn-li"><i class="fa fa-linkedin left"></i> Linkedin</button>
+                    <button type="button" class="btn btn-ins"><i class="fa fa-instagram left"></i> Instagram</button>
+                    </ul>
+                </div>
+                <div class="footer-copyright text-center py-3">© 2021 Copyright:
+                    <a href=""> By Developer Team</a>
+                </div>
+            </footer>
+        </div>
       </>
     );
 }
