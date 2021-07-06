@@ -24,8 +24,8 @@ function Dsavid(){
                                         <div class="text-container">
                                             <h6>TIME & SPACE COMPLEXITY</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Concept of the time & space complexity</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
+                                            <a href="https://youtu.be/9TlHvipP5yA" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
+                                            <a href="shorturl.at/buG23" class="btn btn-primary" target="_blank" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
                                         </div>
                                     </div>
                                 </div>
@@ -41,8 +41,8 @@ function Dsavid(){
                                         <div class="text-container">                                    
                                             <h6>ARRAY</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Concept of the Array Data Structure</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
+                                            <a href="https://youtu.be/PyTK_g1l8V8" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
+                                            <a href="https://www.geeksforgeeks.org/introduction-to-arrays/" class="btn btn-primary" target="_blank" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
                                         </div>
                                     </div>
                                 </div>
@@ -59,8 +59,8 @@ function Dsavid(){
                                         <div class="text-container">
                                             <h6>STRING ALGORITHMS</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Concept of the String Algorithms</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
+                                            <a href="https://youtu.be/FGeSdYqM3Nk" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
+                                            <a href="https://www.hackerearth.com/practice/algorithms/string-algorithm/basics-of-string-manipulation/tutorial/" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
                                         </div>
                                     </div>
                                 </div>
@@ -71,13 +71,13 @@ function Dsavid(){
                                 <div class="card-flyer">
                                     <div class="text-box">
                                         <div class="image-box">
-                                            <img src="https://img2.pngio.com/what-is-an-search-algorithm-volusion-ecommerce-seo-search-algorithm-png-1600_960.png" alt="SEARCHING ALGORITHMS" />
+                                            <img src="https://img2.pngio.com/what-is-an-search-algorithm-volusion-ecommerce-seo-search-algorithm-png-1600_960.png" alt="BINARY SEARCHING"/>
                                         </div>
                                         <div class="text-container">
-                                            <h6>SEARCHING ALGORITHMS</h6>
+                                            <h6>BINARY SEARCHING</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Concept of the Searching Algorithms</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
+                                            <a href="https://youtu.be/j7NodO9HIbk" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
+                                            <a href="https://www.hackerearth.com/practice/algorithms/searching/linear-search/tutorial/" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
                                         </div>
                                     </div>
                                 </div>
@@ -93,8 +93,8 @@ function Dsavid(){
                                         <div class="text-container">                                    
                                             <h6>SORTING ALGORITHMS</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Concept of the Sorting Algorithms</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
+                                            <a href="https://youtu.be/pkkFqlG0Hds" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
+                                            <a href="https://www.hackerearth.com/practice/algorithms/searching/linear-search/tutorial/" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
                                         </div>
                                     </div>
                                 </div>
@@ -105,14 +105,14 @@ function Dsavid(){
                                 <div class="card-flyer">
                                     <div class="text-box">
                                         <div class="image-box">
-                                            <img src="https://www.coderefer.com/blog/wp-content/uploads/sites/7/2020/06/linked-list-logo.jpg" alt="LINKLIST" />
+                                            <img src="https://secureservercdn.net/160.153.138.219/b79.d22.myftpupload.com/wp-content/uploads/2015/09/Singly-linked-list.png" alt="LINKLIST" />
                                         </div>
 
                                         <div class="text-container">
                                             <h6>LINKLIST DATA STRUCTURE</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Concept of the Linklist Data Structure</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
+                                            <a href="https://youtu.be/NobHlGUjV3g" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
+                                            <a href="https://www.geeksforgeeks.org/data-structures/linked-list/" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
                                         </div>
                                     </div>
                                 </div>
@@ -128,8 +128,8 @@ function Dsavid(){
                                         <div class="text-container">
                                             <h6>BINARY TREE</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Concept of the Binary Tree Data Structure</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
+                                            <a href="https://youtu.be/qH6yxkw0u78" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
+                                            <a href="https://www.geeksforgeeks.org/binary-tree-data-structure/" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
                                         </div>
                                     </div>
                                 </div>
@@ -145,8 +145,8 @@ function Dsavid(){
                                         <div class="text-container">                                    
                                             <h6>BINARY SEARCH TREE</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Concept of the Binary Search Tree Data Structure</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
+                                            <a href="https://youtu.be/pYT9F8_LFTM" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
+                                            <a href="https://www.geeksforgeeks.org/binary-search-tree-data-structure/" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
                                         </div>
                                     </div>
                                 </div>
@@ -163,8 +163,8 @@ function Dsavid(){
                                         <div class="text-container">
                                             <h6>GREEDY ALGORITHMs</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Concept of the Greedy Algorithms</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
+                                            <a href="https://youtu.be/ARvQcqJ_-NY" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
+                                            <a href="https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
                                         </div>
                                     </div>
                                 </div>
@@ -180,8 +180,8 @@ function Dsavid(){
                                         <div class="text-container">
                                             <h6>BACKTRACKING ALGORITHMS</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Concept of the Backtracking Algorithms</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
+                                            <a href="https://youtu.be/DKCbsiDBN6c" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
+                                            <a href="https://www.geeksforgeeks.org/backtracking-algorithms/" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
                                         </div>
                                     </div>
                                 </div>
@@ -197,8 +197,8 @@ function Dsavid(){
                                         <div class="text-container">                                    
                                             <h6>STACK DATA STRUCTURE</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Concept of the Stack Data Structure</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
+                                            <a href="https://youtu.be/F1F2imiOJfk" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
+                                            <a href="https://www.geeksforgeeks.org/stack-data-structure/" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
                                         </div>
                                     </div>
                                 </div>
@@ -215,8 +215,8 @@ function Dsavid(){
                                         <div class="text-container">
                                             <h6>QUEUE DATA STRUCTURE</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Concept of the Queue Data Structure</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
+                                            <a href="https://youtu.be/XuCbpw6Bj1U" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
+                                            <a href="https://www.geeksforgeeks.org/queue-data-structure/" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
                                         </div>
                                     </div>
                                 </div>
@@ -233,8 +233,8 @@ function Dsavid(){
                                         <div class="text-container">
                                             <h6>HEAP DATA STRUCTURE</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Concept of the Heap Data Structure</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
+                                            <a href="https://youtu.be/N0Frqx9UlrI" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
+                                            <a href="https://www.geeksforgeeks.org/heap-data-structure/" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
                                         </div>
                                     </div>
                                 </div>
@@ -251,8 +251,8 @@ function Dsavid(){
                                         <div class="text-container">
                                             <h6>BIT MANIPULATION</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Concept of the BIT MANIPULATION</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
+                                            <a href="https://youtu.be/v62IKeJtj0k" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
+                                            <a href="https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
                                         </div>
                                     </div>
                                 </div>
@@ -269,8 +269,8 @@ function Dsavid(){
                                         <div class="text-container">
                                             <h6>GRAPH ALGORITHMS</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Concept of the Graph Algorithms</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
+                                            <a href="https://youtu.be/YTtpfjGlH2M" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
+                                            <a href="https://www.hackerearth.com/practice/algorithms/graphs/graph-representation/tutorial/" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
                                         </div>
                                     </div>
                                 </div>
@@ -287,8 +287,8 @@ function Dsavid(){
                                         <div class="text-container">
                                             <h6>TRIE DATA STRUCTURE</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Concept of the Trie Data Structure</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
+                                            <a href="https://youtu.be/6PX6wqDQE20" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
+                                            <a href="https://www.geeksforgeeks.org/trie-insert-and-search/" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
                                         </div>
                                     </div>
                                 </div>
@@ -305,8 +305,8 @@ function Dsavid(){
                                         <div class="text-container">
                                             <h6>DYNAMIC PROGRAMING</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Concept of the DYNAMIC PROGRAMING</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
+                                            <a href="https://youtu.be/nqowUJzG-iM" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
+                                            <a href="https://www.hackerearth.com/practice/algorithms/dynamic-programming/introduction-to-dynamic-programming-1/tutorial/" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
                                         </div>
                                     </div>
                                 </div>

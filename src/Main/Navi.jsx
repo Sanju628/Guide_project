@@ -34,7 +34,7 @@ function Navi(){
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link-ctive" style={{paddingRight:"15px"}} aria-current="page" to="/">
+                                <NavLink className="nav-link-ctive" style={{paddingRight:"15px"}} aria-current="page" to="/Prac">
                                     <i>PRACTICE DATA STRUCTURE AND ALGORITHMS</i>
                                 </NavLink>
                             </li>
