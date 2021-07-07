@@ -1,9 +1,21 @@
 import React from "react";
 import "../index.css";
+import 'bootstrap/dist/css/bootstrap.css';
+import Carousel from 'react-bootstrap/Carousel';
 
 function Dsavid(){
     return(
     <>
+        <Carousel>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100 h-25"
+                    src="https://i.ytimg.com/vi/qLiFhSLUM1o/maxresdefault.jpg"
+                    
+                    alt="First slide"
+                    />
+                </Carousel.Item>
+        </Carousel>
         <div class="jumbotron">
             <div class="container text-center">
                 <h1><i>STEP 2 IN DATA STRUCTURE AND ALGORITHMS</i></h1>

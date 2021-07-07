@@ -1,9 +1,21 @@
 import React from "react";
 import "../index.css";
+import 'bootstrap/dist/css/bootstrap.css';
+import Carousel from 'react-bootstrap/Carousel';
 
 function Lang(){
     return(
         <>
+             <Carousel>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100 h-25"
+                    src="https://www.rasmussen.edu/-/media/images/blogs/school-of-technology/whichprogramminglanguage_banner.jpg?la=en&hash=A475F6308BA982CC34A3E52C4EDDDC1C9AC2D1B8"
+                    
+                    alt="First slide"
+                    />
+                </Carousel.Item>
+            </Carousel>
             <div class="jumbotron">
             <div class="container text-center">
                 <h1><i>STEP 1 IN DATA STRUCTURE AND ALGORITHMS</i></h1>

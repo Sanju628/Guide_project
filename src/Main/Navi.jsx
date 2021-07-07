@@ -39,7 +39,7 @@ function Navi(){
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link-ctive" style={{paddingRight:"15px"}} aria-current="page" to="/">
+                                <NavLink className="nav-link-ctive" style={{paddingRight:"15px"}} aria-current="page" to="/linkweb">
                                     <i>WEB-DEVELOPMENT</i>
                                 </NavLink>
                             </li>
