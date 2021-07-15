@@ -65,7 +65,7 @@ function Dsavid(){
                                 <div class="card-flyer">
                                     <div class="text-box">
                                         <div class="image-box">
-                                            <img src="https://kantacademy.com/wp-content/uploads/2020/08/String-algo-logo.png" alt="STRING" />
+                                            <img src="https://pixel77.com/wp-content/uploads/2014/11/20-Creative-Chat-Logo-Designs-7.jpg" alt="STRING" />
                                         </div>
 
                                         <div class="text-container">
@@ -301,6 +301,24 @@ function Dsavid(){
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Concept of the Trie Data Structure</i></p>
                                             <a href="https://youtu.be/6PX6wqDQE20" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
                                             <a href="https://www.geeksforgeeks.org/trie-insert-and-search/" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
+                            <a href="">
+                                <div class="card-flyer">
+                                    <div class="text-box">
+                                        <div class="image-box">
+                                            <img src="https://study.cs50.net/slideshows/1sKeGiZoBNyYlWLAOUmDqPcup063gNgBmf9JBaKvcVio/img/0.png" alt="RECURSION"/>
+                                        </div>
+
+                                        <div class="text-container">
+                                            <h6>RECURSION</h6>
+                                            <p><i>This Card Contain the Best Youtube Tutorial and Notes For Learning the Concept of the Recursion</i></p>
+                                            <a href="https://youtu.be/cHMr5-0SDAA" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
+                                            <a href="https://www.geeksforgeeks.org/recursion/" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
                                         </div>
                                     </div>
                                 </div>
