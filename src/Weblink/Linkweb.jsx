@@ -1,6 +1,8 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
+import "../index.css";
+import Cards from "../Details/Cards";
 
 
 function Linkweb(){
@@ -25,58 +27,30 @@ function Linkweb(){
                 <div class="container">
                 <h5 style={{fontFamily:"Cursive",fontSize:"40px",color:"skyblue"}}>FRONTEND DEVELOPMENT LANGUAGES</h5>
                     <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-                            <a href="">
-                                <div class="card-flyer">
-                                    <div class="text-box">
-                                        <div class="image-box">
-                                            <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210203170945/HTML-Tutorials.png" alt="HTML" />
-                                        </div>
-                                        <div class="text-container">
-                                            <h6>HTML LANGUAGE</h6>
-                                            <p><i>This Card Contain the Beginners level Practice of Data Structure and Algorithms Platform</i></p>
-                                            <a href="https://youtu.be/qz0aGYrrlhU" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="https://www.w3schools.com/html/" class="btn btn-primary" target="_blank" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-                            <a href="">
-                                <div class="card-flyer">
-                                    <div class="text-box">
-                                        <div class="image-box">
-                                            <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210203171024/CSSTutorial.png" alt="CSS" />
-                                        </div>
-                                        <div class="text-container">                                    
-                                            <h6>CSS LANGUAGE</h6>
-                                            <p><i>This Card Contain the Beginners level Practice of Data Structure and Algorithms Platform</i></p>
-                                            <a href="https://youtu.be/1Rs2ND1ryYc" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="https://www.w3schools.com/css/default.asp" class="btn btn-primary" target="_blank" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-                            <a href="">
-                                <div class="card-flyer">
-                                    <div class="text-box">
-                                        <div class="image-box">
-                                            <img src="https://1.bp.blogspot.com/-pdqcVeIQp64/XDX7TzdRdcI/AAAAAAAAM8E/ZmGuB6caZqIGmEflGHcj3zgXJJrmqRLdgCLcBGAs/w1200-h630-p-k-no-nu/Free%2BCourses%2Bto%2Blearn%2BJavaScript.jpg" alt="HACKEREARTH" />
-                                        </div>
-
-                                        <div class="text-container">
-                                            <h6>JAVASCRIPT LANGUAGE</h6>
-                                            <p><i>This Card Contain the Beginners level Practice of Data Structure and Algorithms Platform</i></p>
-                                            <a href="https://youtu.be/EfAl9bwzVZk" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="https://www.w3schools.com/js/default.asp" class="btn btn-primary" target="_blank" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+                        <Cards
+                            imgscr="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210203170945/HTML-Tutorials.png"
+                            alter="HTML"
+                            title="HTML LANGUAGE"
+                            description="This Card Contain the Beginners to Pro level Practice and Youtube Video of HTML Language"
+                            youtubelink="https://youtu.be/qz0aGYrrlhU"
+                            noteslink="https://www.w3schools.com/html/"
+                        />
+                        <Cards
+                            imgscr="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210203171024/CSSTutorial.png"
+                            alter="CSS"
+                            title="CSS LANGUAGE"
+                            description="This Card Contain the Beginners to Pro level Practice and Youtube Video of CSS Language"
+                            youtubelink="https://youtu.be/1Rs2ND1ryYc"
+                            noteslink="https://www.w3schools.com/css/default.asp"
+                        />
+                        <Cards
+                            imgscr="https://1.bp.blogspot.com/-pdqcVeIQp64/XDX7TzdRdcI/AAAAAAAAM8E/ZmGuB6caZqIGmEflGHcj3zgXJJrmqRLdgCLcBGAs/w1200-h630-p-k-no-nu/Free%2BCourses%2Bto%2Blearn%2BJavaScript.jpg"
+                            alter="JAVASCRIPT LANGUAGE"
+                            title="JAVASCRIPT LANGUAGE"
+                            description="This Card Contain the Beginners to Pro level Practice and Youtube Video of JAVASCRIPT Language"
+                            youtubelink="https://youtu.be/EfAl9bwzVZk" 
+                            noteslink="https://www.w3schools.com/js/default.asp"
+                        />
                     </div>
                 </div>
             </div>
@@ -94,58 +68,30 @@ function Linkweb(){
                 <div class="container">
                 <h5 style={{fontFamily:"Cursive",fontSize:"40px",color:"blue"}}>FRONTEND DEVELOPMENT FRAMEWORKS</h5>
                     <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-                            <a href="">
-                                <div class="card-flyer">
-                                    <div class="text-box">
-                                        <div class="image-box">
-                                            <img src="https://easybase.io/assets/images/posts_images/5-great-react-libraries-1.png" alt="react-js" />
-                                        </div>
-                                        <div class="text-container">
-                                            <h6>REACT FRAMEWORK</h6>
-                                            <p><i>This Card Contain the Beginners level Practice of Data Structure and Algorithms Platform</i></p>
-                                            <a href="https://youtu.be/4UZrsTqkcW4" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="https://reactjs.org/tutorial/tutorial.html" class="btn btn-primary" target="_blank" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-                            <a href="">
-                                <div class="card-flyer">
-                                    <div class="text-box">
-                                        <div class="image-box">
-                                            <img src="https://i.pinimg.com/originals/7b/be/9c/7bbe9c289e3a6be3c03e658e819ba3c1.jpg" alt="angularjs" />
-                                        </div>
-                                        <div class="text-container">                                    
-                                            <h6>ANGULAR FRAMEWORK</h6>
-                                            <p><i>This Card Contain the Beginners level Practice of Data Structure and Algorithms Platform</i></p>
-                                            <a href="https://youtu.be/2OHbjep_WjQ" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="https://www.w3schools.com/angular/" class="btn btn-primary" target="_blank" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-                            <a href="">
-                                <div class="card-flyer">
-                                    <div class="text-box">
-                                        <div class="image-box">
-                                            <img src="https://cdn-media-1.freecodecamp.org/ghost/2019/03/vueart.png" alt="vuejs" />
-                                        </div>
-
-                                        <div class="text-container">
-                                            <h6>VUE JS FRAMEWORK</h6>
-                                            <p><i>This Card Contain the Beginners level Practice of Data Structure and Algorithms Platform</i></p>
-                                            <a href="https://youtu.be/4deVCNJq3qc" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="https://vuejs.org/v2/guide/" class="btn btn-primary" target="_blank" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+                        <Cards
+                            imgscr="https://easybase.io/assets/images/posts_images/5-great-react-libraries-1.png"
+                            alter="REACT FRAMEWORK"
+                            title="REACT FRAMEWORK"
+                            description="This Card Contain the Beginners to Pro level Practice and Youtube Video of JAVASCRIPT FrameWork"
+                            youtubelink="https://youtu.be/4UZrsTqkcW4" 
+                            noteslink="https://reactjs.org/tutorial/tutorial.html"
+                        />
+                        <Cards
+                            imgscr="https://i.pinimg.com/originals/7b/be/9c/7bbe9c289e3a6be3c03e658e819ba3c1.jpg" 
+                            alter="ANGULAR FRAMEWORK"
+                            title="ANGULAR FRAMEWORK"
+                            description="This Card Contain the Beginners to Pro level Practice and Youtube Video of JAVASCRIPT FrameWork"
+                            youtubelink="https://youtu.be/2OHbjep_WjQ" 
+                            noteslink="https://www.w3schools.com/angular/"
+                        />
+                        <Cards
+                            imgscr="https://cdn-media-1.freecodecamp.org/ghost/2019/03/vueart.png"
+                            alter="VUE JS FRAMEWORK"
+                            title="VUE JS FRAMEWORK"
+                            description="This Card Contain the Beginners to Pro level Practice and Youtube Video of JAVASCRIPT FrameWork"
+                            youtubelink="https://youtu.be/4deVCNJq3qc"
+                            noteslink="https://vuejs.org/v2/guide/"
+                        />
                     </div>
                 </div>
             </div>
@@ -163,76 +109,38 @@ function Linkweb(){
                 <div class="container">
                 <h5 style={{fontFamily:"Cursive",fontSize:"40px",color:"blue"}}>DESIGN FRAMEWORKS FOR WEBSITES</h5>
                     <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-                            <a href="">
-                                <div class="card-flyer">
-                                    <div class="text-box">
-                                        <div class="image-box">
-                                            <img src="https://html5depot.com/wp-content/uploads/2020/10/375925-637286173690034890-16x9-1-1170x658.jpg" alt="sass" />
-                                        </div>
-                                        <div class="text-container">
-                                            <h6>SASS FRAMEWORK</h6>
-                                            <p><i>This Card Contain the Beginners level Practice of Data Structure and Algorithms Platform</i></p>
-                                            <a href="https://youtu.be/_a5j7KoflTs" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="https://scotch.io/tutorials/getting-started-with-sass" class="btn btn-primary" target="_blank" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-                            <a href="">
-                                <div class="card-flyer">
-                                    <div class="text-box">
-                                        <div class="image-box">
-                                            <img src="https://itriangletechnolabs.com/blog/wp-content/uploads/2020/05/bootstrap-illustration.png" alt="BOOTSTRAP" />
-                                        </div>
-                                        <div class="text-container">                                    
-                                            <h6>BOOTSTRAP FRAMEWORK</h6>
-                                            <p><i>This Card Contain the Beginners level Practice of Data Structure and Algorithms Platform</i></p>
-                                            <a href="https://youtu.be/rQryOSyfXmI" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" class="btn btn-primary" target="_blank" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-                            <a href="">
-                                <div class="card-flyer">
-                                    <div class="text-box">
-                                        <div class="image-box">
-                                            <img src="https://laravelnews.imgix.net/images/tailwindcss.png?ixlib=php-3.3.0" alt="tailwindcss" />
-                                        </div>
-
-                                        <div class="text-container">
-                                            <h6>TAILWINDCSS FRAMEWORK</h6>
-                                            <p><i>This Card Contain the Beginners level Practice of Data Structure and Algorithms Platform</i></p>
-                                            <a href="https://youtu.be/4wGmylafgM4" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="https://tailwindcss.com/docs" class="btn btn-primary" target="_blank" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-                            <a href="">
-                                <div class="card-flyer">
-                                    <div class="text-box">
-                                        <div class="image-box">
-                                            <img src="https://www.section.io/engineering-education/how-to-implement-material-ui-in-react/hero.png" alt="Material-UI" />
-                                        </div>
-
-                                        <div class="text-container">
-                                            <h6>Material-UI FRAMEWORK</h6>
-                                            <p><i>This Card Contain the Beginners level Practice of Data Structure and Algorithms Platform</i></p>
-                                            <a href="https://youtu.be/vyJU9efvUtQ" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="https://material-ui.com/" class="btn btn-primary" target="_blank" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+                        <Cards
+                            imgscr="https://html5depot.com/wp-content/uploads/2020/10/375925-637286173690034890-16x9-1-1170x658.jpg"
+                            alter=">SASS FRAMEWORK"
+                            title=">SASS FRAMEWORK"
+                            description="This Card Contain the Beginners to Pro level Practice and Youtube Video of SASS FrameWork"
+                            youtubelink="https://youtu.be/_a5j7KoflTs"
+                            noteslink="https://scotch.io/tutorials/getting-started-with-sass"
+                        />
+                        <Cards
+                            imgscr="https://itriangletechnolabs.com/blog/wp-content/uploads/2020/05/bootstrap-illustration.png"
+                            alter="BOOTSTRAP FRAMEWORK"
+                            title="BOOTSTRAP FRAMEWORK"
+                            description="This Card Contain the Beginners to Pro level Practice and Youtube Video of BOOTSTRAP FrameWork"
+                            youtubelink="https://youtu.be/rQryOSyfXmI"
+                            noteslink="https://getbootstrap.com/docs/5.0/getting-started/introduction/"
+                        />
+                        <Cards
+                            imgscr="https://laravelnews.imgix.net/images/tailwindcss.png?ixlib=php-3.3.0"
+                            alter="TAILWINDCSS FRAMEWORK"
+                            title="TAILWINDCSS FRAMEWORK"
+                            description="This Card Contain the Beginners to Pro level Practice and Youtube Video of TAILWINDCSS FrameWork"
+                            youtubelink="https://youtu.be/4wGmylafgM4"
+                            noteslink="https://tailwindcss.com/docs"
+                        />
+                        <Cards
+                            imgscr="https://www.section.io/engineering-education/how-to-implement-material-ui-in-react/hero.png"
+                            alter="Material-UI FRAMEWORK"
+                            title="Material-UI FRAMEWORK"
+                            description="This Card Contain the Beginners to Pro level Practice and Youtube Video of Material-UI FrameWork"
+                            youtubelink="https://youtu.be/vyJU9efvUtQ"
+                            noteslink="https://material-ui.com/"
+                        />
                     </div>
                 </div>
             </div>
@@ -250,112 +158,54 @@ function Linkweb(){
                 <div class="container">
                 <h5 style={{fontFamily:"Cursive",fontSize:"40px",color:"blue"}}>BACKEND DEVELOPMENT LANGUAGES AND FRAMEWORKS</h5>
                     <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-                            <a href="">
-                                <div class="card-flyer">
-                                    <div class="text-box">
-                                        <div class="image-box">
-                                            <img src="https://www.cloudsavvyit.com/p/uploads/2019/07/2350564e.png?width=1198&trim=1,1&bg-color=000&pad=1,1" alt="NODEjs" />
-                                        </div>
-                                        <div class="text-container">
-                                            <h6>NODE JS FRAMEWORK</h6>
-                                            <p><i>This Card Contain the Beginners level Practice of Data Structure and Algorithms Platform</i></p>
-                                            <a href="https://youtu.be/TlB_eWDSMt4" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="https://www.w3schools.com/nodejs/" class="btn btn-primary" target="_blank" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-                            <a href="">
-                                <div class="card-flyer">
-                                    <div class="text-box">
-                                        <div class="image-box">
-                                            <img src="https://miro.medium.com/max/805/1*alZcSIb0lcN7gQIx2tJ_tg.png" alt="Expressjs" />
-                                        </div>
-                                        <div class="text-container">                                    
-                                            <h6>EXPRESS JS FRAMEWORK</h6>
-                                            <p><i>This Card Contain the Beginners level Practice of Data Structure and Algorithms Platform</i></p>
-                                            <a href="https://youtu.be/L72fhGm1tfE" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="https://expressjs.com/en/guide/routing.html" class="btn btn-primary" target="_blank" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-                            <a href="">
-                                <div class="card-flyer">
-                                    <div class="text-box">
-                                        <div class="image-box">
-                                            <img src="https://i2.wp.com/pythondunyasi.com/wp-content/uploads/2020/02/python-django.jpg?fit=640%2C287&ssl=1" alt="DJANGO" />
-                                        </div>
-
-                                        <div class="text-container">
-                                            <h6>DJANGO FRAMEWORK</h6>
-                                            <p><i>This Card Contain the Beginners level Practice of Data Structure and Algorithms Platform</i></p>
-                                            <a href="https://youtu.be/rHux0gMZ3Eg" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="https://www.djangoproject.com/start/" class="btn btn-primary" target="_blank" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-                            <a href="">
-                                <div class="card-flyer">
-                                    <div class="text-box">
-                                        <div class="image-box">
-                                            <img src="https://miro.medium.com/max/640/1*O0S2-UBv_Y1RRgHgRkg1yQ.png" alt="FLASK" />
-                                        </div>
-
-                                        <div class="text-container">
-                                            <h6>FLASK FRAMEWORK</h6>
-                                            <p><i>This Card Contain the Beginners level Practice of Data Structure and Algorithms Platform</i></p>
-                                            <a href="https://youtu.be/Qr4QMBUPxWo" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="https://flask.palletsprojects.com/en/2.0.x/" class="btn btn-primary" target="_blank" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-                            <a href="">
-                                <div class="card-flyer">
-                                    <div class="text-box">
-                                        <div class="image-box">
-                                            <img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2018/06/Spring-Framework-01.jpg" alt="SPRING" />
-                                        </div>
-
-                                        <div class="text-container">
-                                            <h6>SPRING FRAMEWORK</h6>
-                                            <p><i>This Card Contain the Beginners level Practice of Data Structure and Algorithms Platform</i></p>
-                                            <a href="https://youtu.be/vtPkZShrvXQ" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="https://spring.io/guides/gs/spring-boot/" class="btn btn-primary" target="_blank" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-4">
-                            <a href="">
-                                <div class="card-flyer">
-                                    <div class="text-box">
-                                        <div class="image-box">
-                                            <img src="https://cubettech.com/wp-content/uploads/2019/10/php-framework-laravel-1024x455.jpg" alt="LARVEL" />
-                                        </div>
-
-                                        <div class="text-container">
-                                            <h6>LARVEL FRAMEWORK</h6>
-                                            <p><i>This Card Contain the Beginners level Practice of Data Structure and Algorithms Platform</i></p>
-                                            <a href="https://youtu.be/MFh0Fd7BsjE" target="_blank"  class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px",marginRight:"25px"}}>Video Tutorial</a>
-                                            <a href="https://laravel.com/docs/8.x" class="btn btn-primary" target="_blank" style={{marginTop: "10px",borderRadius:"20px"}}>Notes Tutorial</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
+                        <Cards
+                            imgscr="https://www.cloudsavvyit.com/p/uploads/2019/07/2350564e.png?width=1198&trim=1,1&bg-color=000&pad=1,1"
+                            alter="NODE JS FRAMEWORK"
+                            title="NODE JS FRAMEWORK"
+                            description="This Card Contain the Beginners to Pro level Practice and Youtube Video of NODE JS FrameWork"
+                            youtubelink="https://youtu.be/TlB_eWDSMt4"
+                            noteslink="https://www.w3schools.com/nodejs/"
+                        />
+                        <Cards
+                            imgscr="https://miro.medium.com/max/805/1*alZcSIb0lcN7gQIx2tJ_tg.png"
+                            alter="EXPRESS JS FRAMEWORK"
+                            title="EXPRESS JS FRAMEWORK"
+                            description="This Card Contain the Beginners to Pro level Practice and Youtube Video of EXPRESS JS FrameWork"
+                            youtubelink="https://youtu.be/L72fhGm1tfE"
+                            noteslink="https://expressjs.com/en/guide/routing.html"
+                        />
+                        <Cards
+                            imgscr="https://i2.wp.com/pythondunyasi.com/wp-content/uploads/2020/02/python-django.jpg?fit=640%2C287&ssl=1"
+                            alter="DJANGO FRAMEWORK"
+                            title="DJANGO FRAMEWORK"
+                            description="This Card Contain the Beginners to Pro level Practice and Youtube Video of DJANGO FrameWork"
+                            youtubelink="https://youtu.be/rHux0gMZ3Eg" 
+                            noteslink="https://www.djangoproject.com/start/"
+                        />
+                        <Cards
+                            imgscr="https://miro.medium.com/max/640/1*O0S2-UBv_Y1RRgHgRkg1yQ.png" 
+                            alter="FLASK FRAMEWORK"
+                            title="FLASK FRAMEWORK"
+                            description="This Card Contain the Beginners to Pro level Practice and Youtube Video of FLASK FrameWork"
+                            youtubelink="https://youtu.be/Qr4QMBUPxWo"
+                            noteslink="https://flask.palletsprojects.com/en/2.0.x/"
+                        />
+                        <Cards
+                            imgscr="https://data-flair.training/blogs/wp-content/uploads/sites/2/2018/06/Spring-Framework-01.jpg"
+                            alter="SPRING BOOT FRAMEWORK"
+                            title="SPRING BOOT FRAMEWORK"
+                            description="This Card Contain the Beginners to Pro level Practice and Youtube Video of SPRING-BOOT FrameWork"
+                            youtubelink="https://youtu.be/vtPkZShrvXQ"
+                            noteslink="https://spring.io/guides/gs/spring-boot/"
+                        />
+                        <Cards
+                            imgscr="https://cubettech.com/wp-content/uploads/2019/10/php-framework-laravel-1024x455.jpg"
+                            alter="LARVEL FRAMEWORK"
+                            title="LARVEL FRAMEWORK"
+                            description="This Card Contain the Beginners to Pro level Practice and Youtube Video of LARVEL FrameWork"
+                            youtubelink="https://youtu.be/MFh0Fd7BsjE" 
+                            noteslink="https://laravel.com/docs/8.x"
+                        />
                     </div>
                 </div>
             </div>
