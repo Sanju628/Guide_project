@@ -132,7 +132,7 @@ function Dsavid(){
                             noteslink="https://www.geeksforgeeks.org/heap-data-structure/"
                         />
                         <Cards
-                            imgscr="https://cdn.hashnode.com/res/hashnode/image/upload/v1606947782448/HVa7tDctC.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress" 
+                            imgscr="https://www.cronj.com/blog/wp-content/uploads/bit-manipulation.png" 
                             alter="BIT MANIPULATION"
                             title="BIT MANIPULATION"
                             description="This Card Contain the Best Youtube Tutorial For Learning the Concept of the BIT MANIPULATION"

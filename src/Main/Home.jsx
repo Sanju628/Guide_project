@@ -61,7 +61,7 @@ function Home()
                                             <img src="https://miro.medium.com/max/1024/1*9QRFQdpO2f59GsN2KsE9XA.png" alt="C TUTORIAL" />
                                         </div>
                                         <div class="text-container">
-                                            <h6>DATA STRUCTURE & ALGORITHM</h6>
+                                            <h6>DSA</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Fundamental of the C Programming Language</i></p>
                                             <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Get Started</a>
                                         </div>
