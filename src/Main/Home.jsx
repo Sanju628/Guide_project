@@ -63,7 +63,7 @@ function Home()
                                         <div class="text-container">
                                             <h6>DSA</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Fundamental of the C Programming Language</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Get Started</a>
+                                            <a href="/Dsavid" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Get Started</a>
                                         </div>
                                     </div>
                                 </div>
@@ -79,7 +79,7 @@ function Home()
                                         <div class="text-container">                                    
                                             <h6>WEB DEVELOPMENT</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Fundamental of the C++ Programming Language</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Get Started</a>
+                                            <a href="/linkweb" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Get Started</a>
                                         </div>
                                     </div>
                                 </div>
@@ -96,7 +96,7 @@ function Home()
                                         <div class="text-container">
                                             <h6>COMPETITIVE PROGRAMING</h6>
                                             <p><i>This Card Contain the Best Youtube Tutorial For Learning the Fundamental of the Python Programming Language</i></p>
-                                            <a href="" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Get Started</a>
+                                            <a href="/linkweb" target="_blank" class="btn btn-primary" style={{marginTop: "10px",borderRadius:"20px"}}>Get Started</a>
                                         </div>
                                     </div>
                                 </div>
@@ -117,7 +117,7 @@ function Home()
                     </ul>
                 </div>
                 <div class="footer-copyright text-center py-3">© 2021 Copyright:
-                    <a href=""> By Developer Team</a>
+                    <a href=""> By Sanju Baloria</a>
                 </div>
             </footer>
         </div>
